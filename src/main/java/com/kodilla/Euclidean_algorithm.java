@@ -15,7 +15,6 @@ public class Euclidean_algorithm {
         }
         System.out.println("(1) NWD(a, b)= " + a);
 
-
         // Euclidean_algorithm - modulo
         while (a%b!=0 && b!=0){
               int modulo = a%b;
@@ -23,11 +22,9 @@ public class Euclidean_algorithm {
                   a = b;
                   b = modulo;
               }
-
         }
         System.out.println("(2) NWD(a, b)= " + a);
         }
-
 }
 
 
